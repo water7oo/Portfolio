@@ -1,0 +1,82 @@
+/* ---------- */
+.Header-container{
+  display: flex;
+  border: solid red;
+}
+
+.title{
+  font-size: 20pt;
+  padding: 20px;
+  flex: 1;
+  border: solid blue;
+  text-decoration: none;
+}
+
+.Nav{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border: solid black;
+}
+
+.menu-container{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: solid blue;
+}
+.menu{
+  width: 30px;
+  height: 5px;
+  background-color: black;
+  margin: 6px;
+}
+
+.menu-container:hover{
+  cursor: pointer;
+  background-color: gray;
+}
+/* ----------- */
+.TopText{
+  border: solid red;
+  text-align: center;
+}
+/* ---------- */
+.Artworks-container{
+  padding: 30px;
+  border: solid red;
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+
+.Artworks-container div{
+  padding: 30px;
+  height: 270px;
+  width: 220px;
+  border: solid blue;
+  justify-content: center;
+}
+/* --------- */
+.Artworks-container2{
+  padding: 30px;
+  border: solid red;
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+
+.Artworks-container2 div{
+  padding: 30px;
+  height: 270px;
+  width: 220px;
+  border: solid blue;
+  justify-content: center;
+}
+
+.Artworks-container:hover{
+cursor: pointer;
+}
+
+.Artworks-container2:hover{
+cursor: pointer;
+}

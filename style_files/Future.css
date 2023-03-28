@@ -1,0 +1,60 @@
+/* ---------- */
+.Header-container{
+  display: flex;
+  border: solid red;
+}
+
+.title{
+  font-size: 20pt;
+  padding: 20px;
+  flex: 1;
+  border: solid blue;
+  text-decoration: none;
+}
+
+.title:hover{
+  cursor: pointer;
+}
+
+.Nav{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border: solid black;
+}
+
+.menu-container{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: solid blue;
+}
+.menu{
+  width: 30px;
+  height: 5px;
+  background-color: black;
+  margin: 6px;
+}
+
+.menu-container:hover{
+  cursor: pointer;
+  background-color: gray;
+}
+/* ----------- */
+.master-container{
+  display: flex;
+  padding: 100px;
+  border: solid red;
+  justify-content: center;
+}
+
+.content{
+  padding: 100px;
+  border: solid blue;
+}
+/* ------- */
+.TopText{
+  border: solid red;
+  text-align: center;
+  padding: 40px;
+  font-size: 25pt;
+}

@@ -1,0 +1,117 @@
+
+/* ---------- */
+.Header-container{
+  display: flex;
+  border: solid red;
+}
+
+.title{
+  font-size: 20pt;
+  padding: 20px;
+  flex: 1;
+  border: solid blue;
+  text-decoration: none;
+}
+
+.title:hover{
+  cursor: pointer;
+}
+
+.Nav{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border: solid black;
+}
+
+.menu-container{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: solid blue;
+}
+.menu{
+  width: 30px;
+  height: 5px;
+  background-color: black;
+  margin: 6px;
+}
+
+.menu-container:hover{
+  cursor: pointer;
+  background-color: gray;
+}
+/* ----------- */
+.Content-container{
+  display: flex;
+  border: solid red;
+  align-items: center;
+}
+
+.Picture-Name-container{
+  flex: 1;
+  border: solid blue;
+}
+.NameDiv{
+  padding: 10px;
+  text-align: center;
+  border: solid rgb(90, 90, 90);
+}
+
+.BabyPicture{
+  border: solid rgb(4, 255, 83);
+}
+.AboutBody{
+  border: solid rgb(204, 0, 255);
+  padding: 20px;
+  width: 700px;
+  height: 100px;
+  text-align: center;
+}
+
+.about-title{
+  text-align: center;
+  padding: 10px;
+  border: solid red;
+  font-size: 15pt;
+}
+.about-title-container{
+  border: solid red;
+}
+/* ------------ */
+.SocialMedia-container{
+  display: flex;
+  padding: 30px;
+  border: solid red;
+  justify-content: center;
+}
+
+.twitter{
+  text-align: center;
+  padding: 35px;
+  border: solid red;
+}
+
+.Instagram{
+  text-align: center;
+  padding: 35px;
+  border: solid red;
+}
+
+.Artstation{
+  text-align: center;
+  padding: 35px;
+  border: solid red;
+}
+
+.GitHub{
+  text-align: center;
+  padding: 35px;
+  border: solid red;
+}
+
+.Tumblr{
+  text-align: center;
+  padding: 35px;
+  border: solid red;
+}
+
