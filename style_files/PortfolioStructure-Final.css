@@ -1,8 +1,16 @@
 body{
-  background-color: #171a1c;
+  background: black;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
   overflow-x: hidden; /* Hide horizontal scrollbar */
+  margin: -3px;
+
+  /* background-image:url("Logos_BG.png");
+  background-size:cover;
+  background-position: center;
+  background-size: 100%;
+  box-shadow: inset 0 0 0 2000px rgba(16, 17, 19, 0.427);
+  background-blend-mode: overlay; */
 }
 
 a{
@@ -16,8 +24,6 @@ a.title:hover{
   width: 300px;
   background-color: rgb(27, 27, 27) ;
 }
-
-
 
 /* ---------- */
 .Header-container{
@@ -77,44 +83,129 @@ a.title:hover{
 
 .RmyStuff:hover{
   transform: scale(1.1);
-  width: 140px;
+  width: 145px;
   justify-content: center;
   background-color: rgb(27, 27, 27) ;
 }
-
-/* --------- */
-.welcome{
-  font-size: 50pt;
-  color: white;
-  -webkit-text-stroke: 2px black;
-}
-.preview{
-  /* border-top: 5px solid #FF014F; */
-  border-bottom: 30px solid black;
-  background: black;
-  overflow: hidden;
-  height: 130px;
-
-  background-image: url("MypfpRedo.png");
-  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.445);
-  background-position: center -670px;
+/* ----------- */
+.TopText-container{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  background-image: url(Luffy.png);
+  background-size: cover;
+  background-position: 1px -335px;
+  background-size: 100%;
+  margin-top: -5px;
   background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.719);
+  background-blend-mode: overlay;
 
-  margin:-9px;
+  border-bottom: 10px solid #FF014F;
+}
+
+
+.TopText{
+  /* height: max-content; */
+  width: 500px;
+  border: 15px double #FF014F;
+  border-radius: 80px;
+  text-align:center;
+  color: white;
+  font-size: 15pt;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* ----------- */
 .Content-container{
-  display: flex; 
+  /* display: flex;  */
+  /* justify-content: center; */
   background-color: #171a1c;
   border-bottom: 10px solid black;
   color: white;
   font-family: 'Courier New', Courier, monospace;
 
+  background-image:url("Logos_BG.png");
+  background-size:cover;
+  background-position: center;
+  background-size: 100%;
+  box-shadow: inset 0 0 0 2000px rgba(16, 17, 19, 0.416);
+  background-blend-mode: overlay;
+
+}
+
+.Content-container div{
+  /* border: 2px solid red; */
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+/* .margin{
+  border-bottom: 5px solid #FF014F;
+  padding: 900px;
+  justify-content: center;
+} */
+
+.Picture-Name-container{
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  
+}
+
+.NameDiv{
+  text-align: center;
+  height: 50px;
+  width: 400px;
+  border: 5px solid black;
+  border-radius: 20px;
+  background: #171a1cab;
+  font-size: 10pt;
+
+}
+
+.BabyPicture{
+  overflow: hidden;
+}
+#BabyPicture{
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  border: 5px solid rgb(0, 0, 0);
+}
+
+.AboutBody{
+  height: max-content;
+  text-align: center;
+  font-size: 13pt;
+}
+
+
+.about-title{
+text-align: center;
+ font-size: 16pt;
+ background: #ffffff;
+ color: black;
+ border-radius: 20px;
+ padding: 10px;
+}
+.about-title-container{
+  border: 5px solid #000000;
+  border-radius: 30px;
+  flex-direction: column;
+  width: 1000px;
+  height: max-content;
+  margin-top: 50px;
+}
+
+/* ------------ */
+
+.Content-container2{
+  /* display: flex;  */
+  background-color: #171a1c;
+  border-bottom: 10px solid black;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
 
   background-image:url("Logos_BG.png");
   background-size:cover;
@@ -122,66 +213,12 @@ a.title:hover{
   background-size: 100%;
   box-shadow: inset 0 0 0 2000px rgba(16, 17, 19, 0.427);
   background-blend-mode: overlay;
-  
 
-  margin:-9px;
 }
 
-.contentChild{
-  /* display: flex; */
-  justify-content: center;
-  
-}
-.margin{
-  border-bottom: 5px solid #FF014F;
-  padding: 5px;
-  justify-content: center;
-}
-.Picture-Name-container{
-  justify-content: center;
-}
-  
-.NameDiv{
-  width: 800px;
-  font-size: 10pt;
-  text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  -webkit-text-stroke: 2px black;
-}
-
-
-.BabyPicture{
-  width: 800px;
-  overflow: hidden;
-}
-#BabyPicture{
-  height: 200px;
-  width: 200px;
-  border-radius: 100%;
-  border: 6px solid rgb(0, 0, 0);
-}
-.AboutBody{
-  height: 100px;
-  text-align: center;
-  font-size: 11pt;
-}
-
-.about-title{
-text-align: center;
- font-size: 15pt;
- background: black;
- border-top-right-radius: 10px ;
- border-top-left-radius: 10px ;
-}
-.about-title-container{
-  border: 4px solid #000000;
-  border-radius: 20px;
-  background-color: #171a1cbf;
-  padding: 10px;
-  width: 800px;
-  height: 150px;
-}
-
+/* .website{
+  padding: 300px;
+} */
 
 /* ------------ */
 .SocialMedia-container{
@@ -191,6 +228,9 @@ text-align: center;
    gap: 8px;
    margin:-8px;
    border-top: 10px solid #FF014F;
+   border-bottom: 15px solid  black;
+
+   background: #080809;
 }
 
 .socialMedia-title{
@@ -200,7 +240,7 @@ text-align: center;
 }
 
 .SocialMedia-container div{
-
+  padding: 5px;
   border-radius: 10px;
   text-align: center;
   background: white;
@@ -224,9 +264,12 @@ text-align: center;
   rotate: 360deg;
 }
 /* ------------- */
+.watermark p{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(104, 104, 104);
 
-/* Make carousel for landing page */
-/* Fix content and about me */
+}
 
 
 
