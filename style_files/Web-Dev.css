@@ -132,45 +132,10 @@ a.title:hover{
 }
 
 .content-container div{
+  margin-left: 365px;
   border: 2px solid red;
   text-align: center;
-  width: 900px;
-}
-
-.Picture-Name-container{
-   border: 2px solid rgb(51, 0, 255);
-  border-radius: 0px;
-}
-
-.BabyPicture{
-  width: 900px;
-  overflow: hidden;
-}
-#BabyPicture{
-  height: 300px;
-  width: 300px;
-  border-radius: 100%;
-  border: 6px solid rgb(0, 0, 0);
-}
-.AboutBody{
-  height: 600px;
-  text-align: center;
-}
-
-.about-title{
-text-align: center;
- font-size: 15pt;
- background: black;
- border-top-right-radius: 10px ;
- border-top-left-radius: 10px ;
- border: red;
-}
-.about-title-container{
-  border: 4px solid #000000;
-  border-radius: 20px;
-  background-color: #0099ffbf;
-  flex-direction: column;
-  width: 30px;
+  width: 688px;
 }
 
 /* ------------ */
